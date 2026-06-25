@@ -1,0 +1,45 @@
+# Local article files
+
+samples/
+uploads/
+articles/
+pdfs/
+source_articles/
+
+# Manuscript drafts
+
+drafts/
+private/
+personal/
+thesis/
+dissertation/
+
+# Document files
+
+*.pdf
+*.doc
+*.docx
+*.odt
+*.rtf
+
+# Reference manager files
+
+*.ris
+*.bib
+*.enl
+*.nbib
+
+# System files
+
+.DS_Store
+Thumbs.db
+
+# Editor files
+
+.vscode/
+.idea/
+
+# Temporary files
+
+*.tmp
+*.log
