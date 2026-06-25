@@ -28,6 +28,124 @@ It helps researchers:
 7. Rewrite key sections with direct, clear, argument-forward academic prose.
 8. Run a final coherence and submission-readiness check.
 
+## Repository structure
+
+The repository is organized into several folders.
+
+```text
+vak-manuscript-stress-test/
+├── docs/
+├── workflow/
+├── prompts/
+├── templates/
+├── rules/
+├── checklists/
+├── phrasebank/
+└── examples/
+```
+
+### docs/
+
+Project documentation and usage guidance.
+
+Key files:
+
+* `docs/how_to_use.md`
+* `docs/copyright_and_ethics.md`
+* `docs/limitations.md`
+* `docs/repository_map.md`
+
+### workflow/
+
+Step-by-step workflow from target journal analysis to final submission readiness.
+
+Key files:
+
+* `workflow/00_full_pipeline.md`
+* `workflow/01_target_journal_articles.md`
+* `workflow/02_journal_style_profile.md`
+* `workflow/03_draft_generation.md`
+* `workflow/04_reference_audit.md`
+* `workflow/05_citation_claim_alignment.md`
+* `workflow/06_hostile_review.md`
+* `workflow/07_structural_reconstruction.md`
+* `workflow/08_argument_forward_rewrite.md`
+* `workflow/09_final_coherence_polishing.md`
+
+### prompts/
+
+Reusable AI prompts for each stage of the manuscript stress-test workflow.
+
+Key files:
+
+* `prompts/01_article_style_analyzer.md`
+* `prompts/02_journal_profile_generator.md`
+* `prompts/03_vak_draft_writer.md`
+* `prompts/04_reference_reality_checker.md`
+* `prompts/05_citation_claim_alignment_checker.md`
+* `prompts/06_hostile_peer_reviewer.md`
+* `prompts/07_structural_reconstruction_planner.md`
+* `prompts/08_argument_forward_rewriter.md`
+* `prompts/09_final_coherence_polisher.md`
+
+### templates/
+
+Reusable templates for ВАК-style article components.
+
+Key files:
+
+* `templates/journal_style_profile_template.md`
+* `templates/vak_article_structure.md`
+* `templates/abstract_template.md`
+* `templates/introduction_template.md`
+* `templates/methodology_template.md`
+* `templates/conclusion_template.md`
+
+### rules/
+
+Rules for academic logic, Russian academic style, citation integrity, paragraph structure, and method-question alignment.
+
+Key files:
+
+* `rules/banned_defensive_formulas.md`
+* `rules/method_question_alignment.md`
+* `rules/paragraph_task_rules.md`
+* `rules/citation_integrity_rules.md`
+* `rules/russian_academic_style.md`
+* `rules/vak_article_logic.md`
+
+### checklists/
+
+Practical checklists for auditing and final review.
+
+Key files:
+
+* `checklists/reference_audit_checklist.md`
+* `checklists/hostile_review_checklist.md`
+* `checklists/final_submission_checklist.md`
+* `checklists/method_question_fit_checklist.md`
+* `checklists/logical_break_checklist.md`
+
+### phrasebank/
+
+Reusable Russian academic phrases.
+
+Key file:
+
+* `phrasebank/academic_russian_phrases.md`
+
+### examples/
+
+Fictional examples showing expected outputs.
+
+Key files:
+
+* `examples/style_profile_example.md`
+* `examples/hostile_review_report_example.md`
+* `examples/reference_audit_report_example.md`
+* `examples/rewritten_section_example.md`
+* `examples/final_coherence_report_example.md`
+
 ## Main modules
 
 * Journal style profiling
